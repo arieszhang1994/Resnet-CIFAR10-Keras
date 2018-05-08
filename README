@@ -1,0 +1,7 @@
+Deep Residual Learning for CIFAR10 with keras and tensorflow, http://arxiv.org/abs/1512.03385
+
+I have finish two version of a model in that paper
+train_keras.py is the implement with a prue keras, which has a val_acc of 0.9071
+train_keras_and_tensorflow.py is the implement with keras in architecture part and tensorflow in training part, which has a val_acc of 0.8892 
+
+I think there should be some thing wrong in train_keras_and_tensorflow.py but I can't figure it out
